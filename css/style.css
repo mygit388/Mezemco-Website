@@ -224,8 +224,8 @@ background-color:#001218 ;
 }
 .indexproductcards
 {
-    width: 100px;  /* Set the width of the circle */
-    height: 100px; /* Set the height to the same value as the width to make it a circle */
+    width: 50px;  /* Set the width of the circle */
+    height: 50px; /* Set the height to the same value as the width to make it a circle */
     
     display: flex;  /* Use flexbox to center the text */
     border-radius: 50%;
