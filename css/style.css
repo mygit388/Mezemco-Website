@@ -76,15 +76,15 @@ font-size: 16px;
 {
     
     background:radial-gradient(#7b2928,#001218);            
-    height: 600px;
+    height: 610px;
     padding-top: 0px;
     
 }
 .carousel-inner
 {
-    height: 500px;
+    height: 520px;
  padding-right: 100px;
- padding-top: 100px;
+ padding-top: 85px;
 }
 
 .carousel-image {
@@ -97,7 +97,7 @@ font-size: 16px;
 }
 .carousel-caption {
     position: absolute; /* Position caption */
-    left: 5%; /* Align caption to the right */
+    left: 10%; /* Align caption to the right */
     bottom: 50%; /* Adjust vertical position */
     right: auto;
    
@@ -170,6 +170,15 @@ font-family: Bell MT;
 {
 color:#ffffff;
 font-family:Bodoni MT;
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        position: static;
+        
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
 }
 
 .form-control
@@ -260,4 +269,5 @@ background-color:#001218 ;
       text-align: justify;  /* Center-aligns text */
       font-family: Yu Gothic;
   }
+  
  
