@@ -1,0 +1,196 @@
+#topheader1
+{
+    background-color: #001218;
+    
+}
+#topheader1 a{
+    color:#bf9f62;
+    font-weight: 600;
+    font-size: .89rem;
+}
+#topheader2
+{
+    background-color:#001218;
+    position: fixed;   
+    top:0; 
+    width: 100%;
+    z-index: 1000; 
+    
+}
+.nav-link {
+    font-size: 16px; 
+}
+body
+{
+    background: #15181a;
+}
+.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+
+    height:100%;
+}
+.top-footer
+{
+    background-color:#7b2928;
+      
+}
+.top-footer a
+{
+color:white;
+font-size: 14px;
+font-family: century gothic;
+
+text-decoration-line: none;
+}
+.top-footer p
+{
+    color:white;
+    font-size: 16px;
+    font-family:century gothic;
+}
+.top-footer h3
+{
+    color:#bf9f62;
+    font-weight: 700;
+}
+.top-footer i
+{
+    color:silver;
+      
+}
+.bottom-footer 
+{
+background-color:#001218;
+
+}
+.bottom-footer p
+{
+color:rgb(175, 184, 142);
+text-align: center;
+font-size: 16px;
+
+}
+.section-carousel
+{
+    
+    background:radial-gradient(#7b2928,#001218);            
+    height: 600px;
+    padding-top: 0px;
+    
+}
+.carousel-inner
+{
+    height: 500px;
+ padding-right: 100px;
+ padding-top: 100px;
+}
+
+.carousel-image {
+    height: 300px; 
+    width: 500px; 
+       object-fit: cover;
+      margin-left: auto; 
+  
+    
+}
+.carousel-caption {
+    position: absolute; /* Position caption */
+    left: 5%; /* Align caption to the right */
+    bottom: 50%; /* Adjust vertical position */
+    right: auto;
+   
+}
+
+.top-section
+{    
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.top-section h2,h5
+{
+    color:#7b2928;
+    font-family: century gothic;
+    font-weight: 700;
+    
+}
+.top-section p
+{
+    color:white;
+    font-family: century gothic;
+    font-size: 16px;
+    text-align: left;    
+}
+.top-section a
+{
+    color:#ffffff;
+    font-weight: 600;
+    
+}
+#indextop-section2
+{
+    background:#001218;    
+}
+.qualities-img
+{
+    width:200px;
+    height:200px;
+}
+
+.middle-section h2,h3
+{
+font-family:century gothic;
+color:#7b2928;
+}
+.middle-section h5
+{
+font-family:century gothic;
+color:#7b2928;
+}
+.middle-section p
+{
+    font-family: century gothic;   
+color:white;
+
+}
+
+.carousel-caption h1
+{
+color:#7b2928;
+font-family: century gothic;
+}
+
+.carousel-caption h3
+{
+color:#ffffff;
+font-family:century gothic;
+}
+
+.form-control
+{
+    border-radius: 50px;
+}
+.middlec1
+{
+    border-radius: 30px;
+background-color:#19313a ;
+}
+.middlec2
+{
+    border-radius: 30px;
+    background-color:#0c5975 ;
+}
+.middlec3
+{
+    border-radius: 30px;
+    background-color:#19313a ;
+}
+#topsectiontexts
+{
+    /*background-color: #012635;*/
+    border: 1px solid #7b2928;
+    border-radius: 30px;
+    
+}

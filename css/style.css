@@ -1,55 +1,58 @@
-
 #topheader1
 {
-    background-color: ghostwhite;
-    border-bottom: 1px solid silver;
+    background-color: #001218;
+    
 }
 #topheader1 a{
-    color:blue;
+    color:#bf9f62;
     font-weight: 600;
     font-size: .89rem;
 }
 #topheader2
 {
-    background-color :#d9b56b ;
-   
-    height:200px;
+    background-color:#001218;
+    position: fixed;   
+    top:0; 
+    width: 100%;
+    z-index: 1000; 
+    
 }
 .nav-link {
-    font-size: 20px; 
+    font-size: 16px; 
 }
 body
 {
-    background: white;
+    background: #15181a;
 }
 .container-fluid
 {
     padding-left: 0;
     padding-right: 0;
+
     height:100%;
 }
-.full-footer
+.top-footer
 {
-    background-color:#053b1b;
+    background-color:#7b2928;
       
 }
 .top-footer a
 {
-color:rgb(175, 184, 142);
+color:white;
 font-size: 14px;
-font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: Yu Gothic;
 
 text-decoration-line: none;
 }
 .top-footer p
 {
-    color:rgb(175, 184, 142);
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: 16px;
+    font-family:Yu Gothic;
 }
 .top-footer h3
 {
-    color:rgb(175, 184, 142);
+    color:#bf9f62;
     font-weight: 700;
 }
 .top-footer i
@@ -59,19 +62,20 @@ text-decoration-line: none;
 }
 .bottom-footer 
 {
-background-color:#062c15;
+background-color:#001218;
 
 }
 .bottom-footer p
 {
 color:rgb(175, 184, 142);
 text-align: center;
-font-size: medium;
+font-size: 16px;
 
 }
 .section-carousel
 {
-    background: radial-gradient(rgb(21, 95, 58),#0b2214);           
+    
+    background:radial-gradient(#7b2928,#001218);            
     height: 600px;
     padding-top: 0px;
     
@@ -100,69 +104,71 @@ font-size: medium;
 }
 
 .top-section
-{
-    background-color: grey;
+{    
     padding-left: 0;
     padding-right: 0;
 }
-.top-section h1
+
+.top-section h3,h5,h2
 {
-    color:rgb(13, 59, 36);
-    font-family: Engravers MT;
+    color:#bf9f62;
+    font-family: Yu Gothic;
     font-weight: 700;
-    
+    text-align: center;
 }
 .top-section p
 {
-    color:#213128;
-    font-family: AmerType Md BT;
-    font-size: 20px;
-    text-align: left;
-    
+    color:white;
+    font-family: Yu Gothic;
+    font-size: 16px;
+    text-align: left;    
 }
 .top-section a
 {
-    color:062c15;
+    color:#ffffff;
     font-weight: 600;
     
+}
+#indextop-section2
+{
+    background:#001218;    
 }
 .qualities-img
 {
     width:200px;
     height:200px;
+    object-fit: cover
 }
-.middle-section
+.card-img-top {
+    height: 200px; /* Set a uniform height */
+    object-fit: cover; /* Ensures the image scales and crops nicely */
+  }
+.middle-section h2,h3
 {
-   background-color: grey; 
-   
+font-family:Yu Gothic;
+color:#bf9f62;
 }
-.middle-section h5,h3,p
+.middle-section h5
 {
-font-family:Bodoni MT;
-color:rgb(13, 59, 36);
+font-family:Yu Gothic;
+color:#bf9f62;
 }
 .middle-section p
 {
-    font-family: AmerType Md BT;   
-color:#213128;
-}
-.breadcrumb-section
-{
-  background-color: #053b1b;  
-}
-.breadcrumb-section h2{
-    color:white;
+    font-family: Yu Gothic;   
+color:white;
+
 }
 
 .carousel-caption h1
 {
-color:white;
-font-family: Engravers MT;
+color:#bf9f62;
+font-family: Bell MT;
 }
 
 .carousel-caption h3
 {
-color:rgb(175, 184, 142);
+color:#ffffff;
 font-family:Bodoni MT;
 }
 
@@ -170,3 +176,91 @@ font-family:Bodoni MT;
 {
     border-radius: 50px;
 }
+.middlec1
+{
+    border-radius: 30px;
+background-color:#001218 ;
+}
+.middlec2
+{
+    border-radius: 30px;
+    background-color:#1b2224 ;
+}
+.middlec3
+{
+    border-radius: 30px;
+    background-color:#001218 ;
+}
+#topsectiontexts
+{
+    
+    border: 1px solid #bf9f62;
+    border-radius: 30px;
+    
+    
+}
+.card-text {
+    text-align: justify;
+}
+.card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: translateY(-10px); /* Moves the image up when hovered */
+  }
+.diagonal-background {
+   /* width: 100%;
+    height: 400px; */
+    background: url('../imgs/walnut.png'), linear-gradient(45deg, #7b2928 50%, #1b2224 50%);
+    background-size: center,center;  /* Ensure both the image and gradient cover the full area */
+    background-position: center, center;  /* Center both the image and gradient */
+    background-repeat: no-repeat, no-repeat;  /* Prevent both the image and gradient from repeating */
+}
+
+/* If needed, specific styling for the div inside */
+#div-diagonal {
+    height: 100%; /* Ensure it covers the full height of the parent */
+}
+.indexproductcards
+{
+    width: 200px;  /* Set the width of the circle */
+    height: 200px; /* Set the height to the same value as the width to make it a circle */
+    
+    display: flex;  /* Use flexbox to center the text */
+    border-radius: 50%;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+      /* Makes the div a circle */
+    text-align: center;  /* Ensures text is centered */
+   
+}
+.aboutcircles {
+   
+    width: 80px;  /* Set the width of the circle */
+      height: 80px; /* Set the height to the same value as the width to make it a circle */
+      
+      color: #bf9f62;  /* Text color */
+      font-size: 16px;  /* Adjust the font size as needed */
+      display: flex;  /* Use flexbox to center the text */
+      border-radius: 50%;
+      justify-content: center;  /* Center horizontally */
+      align-items: center;  /* Center vertically */
+        /* Makes the div a circle */
+      text-align: center;  /* Ensures text is centered */
+    
+  }
+  
+  .aboutrectangles  {
+    width: 300px;  /* Width of the rectangle */
+      height: 300px; /* Height of the rectangle */
+      
+      color: #ffffff;  /* Text color */
+      font-size: 16px;  /* Adjust font size as needed */
+      display: flex;  /* Use flexbox to center text */
+      justify-content: center;  /* Center horizontally */
+      align-items: center;  /* Center vertically */
+      text-align: justify;  /* Center-aligns text */
+      font-family: Yu Gothic;
+  }
+ 
