@@ -171,10 +171,9 @@ font-family: Bell MT;
 color:#ffffff;
 font-family:Bodoni MT;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .carousel-caption {
-        position: static;
-        
+        position: static;        
         color: white;
         padding: 5px;
         text-align: center;
