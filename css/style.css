@@ -240,6 +240,10 @@ background-color:#001218 ;
      /* Ensures text is centered */
    
 }
+.productcards
+{
+    background-color: #19272e;
+}
 .aboutcircles {
    
     width: 80px;  /* Set the width of the circle */
