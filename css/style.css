@@ -175,7 +175,7 @@ font-family:Bodoni MT;
     .carousel-caption {
         position: static;        
         color: white;
-        padding: 5px;
+        padding: 10px;
         text-align: center;
     }
 }
