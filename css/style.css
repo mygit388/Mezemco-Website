@@ -228,7 +228,7 @@ font-family:Bodoni MT;
         text-align: center;
     }
 }
-@media (max-width: 480px) { /* Adjusts for mobile screens */
+@media (max-width: 576px) { /* Adjusts for mobile screens */
     #topheader2 h1 {
         font-size: 7vw; /* Slightly larger for better visibility */
     }
