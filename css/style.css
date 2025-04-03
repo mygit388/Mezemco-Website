@@ -228,9 +228,11 @@ font-family:Bodoni MT;
         text-align: center;
     }
 }
-@media (max-width: 576px) { /* Adjusts for mobile screens */
+@media (max-width: 576px) {
     #topheader2 h1 {
-        font-size: 7vw; /* Slightly larger for better visibility */
+        font-size: clamp(20px, 7vw, 40px); /* Min: 20px, Ideal: 7vw, Max: 40px */
+        white-space: nowrap;
+        text-align: center;
     }
 }
 
