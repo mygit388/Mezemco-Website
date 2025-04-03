@@ -230,7 +230,7 @@ font-family:Bodoni MT;
 }
 @media (max-width: 576px) {
     #topheader2 h1 {
-        font-size: clamp(20px, 7vw, 40px); /* Min: 20px, Ideal: 7vw, Max: 40px */
+         font-size: clamp(30px, 7vw, 50px); /* Min: 20px, Ideal: 7vw, Max: 40px */
         white-space: nowrap;
         text-align: center;
     }
