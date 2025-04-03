@@ -10,19 +10,42 @@
 }
 #topheader2
 {
-    background-color:#001218;
-    position: fixed;   
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#7b2928;
+    /*position: fixed;  */ 
     top:0; 
     width: 100%;
     z-index: 1000; 
+    text-align: center;
+    height:400px;
+      flex-direction: column; /* Stack items vertically */
+}
+#topheader2 h1
+{
+    color:white;
+font-family: Bell MT;
+font-size: 60px;
+}
+
+
+
+
+#topheader2 img {
+    width: 150px;
+    height: 150px;
     
 }
+
+
+
 .nav-link {
     font-size: 16px; 
 }
 body
 {
-    background: #15181a;
+    background: white;
 }
 .container-fluid
 {
@@ -60,18 +83,26 @@ text-decoration-line: none;
     color:silver;
       
 }
-.bottom-footer 
-{
-background-color:#001218;
 
-}
-.bottom-footer p
-{
-color:rgb(175, 184, 142);
-text-align: center;
-font-size: 16px;
 
+.bottom-footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px; /* Adjust as needed */
+    background-color:#7b2928;
 }
+
+.bottom-footer p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
 .section-carousel
 {
     
@@ -107,21 +138,32 @@ font-size: 16px;
 {    
     padding-left: 0;
     padding-right: 0;
+    
 }
 
-.top-section h3,h5,h2
+
+.top-section h5,h2
 {
     color:#bf9f62;
     font-family: Yu Gothic;
     font-weight: 700;
     text-align: center;
 }
+.top-section h3
+{
+    color: black;
+    font-family: Yu Gothic;
+    font-weight: 700;
+    text-align: center;
+}
 .top-section p
 {
-    color:white;
+    color:black;
     font-family: Yu Gothic;
     font-size: 16px;
-    text-align: left;    
+    text-align: center; /* Centers the text */
+    max-width: 600px; /* Optional: Restricts width for better readability */
+    margin: 0 auto;
 }
 .top-section a
 {
